@@ -11,7 +11,8 @@ module.exports = {
   //   };
   // }
 
-  afterInstall: function () {
-    return this.addPackageToProject('toastr');
-  },
+  // we use our own toastr version
+  // afterInstall: function () {
+  //   return this.addPackageToProject('toastr');
+  // },
 };
